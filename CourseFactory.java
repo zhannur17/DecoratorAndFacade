@@ -1,0 +1,3 @@
+interface CourseFactory {
+    Course createCourse();
+}
