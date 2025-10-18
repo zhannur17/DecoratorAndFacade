@@ -3,13 +3,13 @@ import java.util.Scanner;
 class ProgrammingCourse implements Course {
     public void deliverContent(Student student) {
         System.out.println("Module 1: Variables and Data Types");
-        student.addPoints(15);
+        student.addPoints(30);
 
         System.out.println("Module 2: Loops and Conditions");
-        student.addPoints(15);
+        student.addPoints(30);
 
         System.out.println("Module 3: OOP Basics");
-        student.addPoints(15);
+        student.addPoints(20);
 
         System.out.println("You have completed all modules in Programming!");
 
@@ -35,3 +35,4 @@ class ProgrammingCourse implements Course {
         return 55;
     }
 }
+
