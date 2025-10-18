@@ -5,10 +5,10 @@ class GamificationDecorator extends CourseDecorator {
 
     public void deliverContent(Student student) {
         course.deliverContent(student);
-        System.out.println("Gamification active! Points awarded: 50");
     }
 
     public String getDescription() {
         return course.getDescription() + " + Gamification";
     }
+
 }
