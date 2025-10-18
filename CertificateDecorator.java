@@ -5,10 +5,10 @@ class CertificateDecorator extends CourseDecorator {
 
     public void deliverContent(Student student) {
         course.deliverContent(student);
-        System.out.println("Certificate will be granted after completion.");
     }
 
     public String getDescription() {
         return course.getDescription() + " + Certificate";
     }
+
 }
