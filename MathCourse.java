@@ -3,13 +3,13 @@ import java.util.Scanner;
 class MathCourse implements Course {
     public void deliverContent(Student student) {
         System.out.println("Module 1: Algebra Basics");
-        student.addPoints(10);
+        student.addPoints(30);
 
         System.out.println("Module 2: Geometry Fundamentals");
-        student.addPoints(10);
+        student.addPoints(30);
 
         System.out.println("Module 3: Basic Calculus");
-        student.addPoints(10);
+        student.addPoints(30);
 
         System.out.println("You have completed all modules in Math!");
         System.out.println("\nFinal Test: What is 2 + 2?");
@@ -34,3 +34,4 @@ class MathCourse implements Course {
         return 40;
     }
 }
+
